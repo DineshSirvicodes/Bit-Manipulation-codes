@@ -1,0 +1,22 @@
+Notes->
+1) AND - 
+    ALL True -> True
+    1 False -> False
+
+2) OR 
+    1 true - > true
+    all false -> false
+
+3) XOR
+    number of 1's even - > 0  
+    number of 1's odd -> 1
+
+4) SHIFT
+    1. Right shift  >> -> shift bits to right, add bits on left
+       Number >>  k = Number / 2^k
+    2. Left shift  << -> shift bits to left, add bits on right
+       Number  >> k = Number * 2^k
+
+5) NOT = ~
+   ~1 = 0
+   ~0 = 1
