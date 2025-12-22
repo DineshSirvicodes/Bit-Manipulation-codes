@@ -60,3 +60,14 @@ class Solution {
         return (n & leftShift) != 0;
     }
 };
+
+// using right shift operator
+class Solution {
+  public:
+    bool checkKthBit(int n, int k) {
+        //  code here
+        if((n>>k) & 1 != 0) {
+            return true;
+        }return false;
+    }
+};
